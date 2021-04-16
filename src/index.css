@@ -50,6 +50,10 @@ body h1 {
   padding-bottom: .2rem;
 }
 
+#close-btn:hover {
+  background-color: crimson;
+}
+
 .nav-container {
   background-color: rgb(46, 46, 46);
   height: 1.5rem;
