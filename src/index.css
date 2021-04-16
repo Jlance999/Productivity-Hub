@@ -19,6 +19,21 @@ body h1 {
   max-width: 75%;
 }
 
+.applet {
+  position: absolute;
+  z-index: 9;
+  border: 1px solid blanchedalmond;
+  text-align: center;
+}
+
+.appletheader {
+  padding: 2px;
+  cursor: move;
+  z-index: 10;
+  background-color: black;
+  color: rgb(255, 220, 168);
+}
+
 .navbar {
   display: flex;
   align-items: center;
