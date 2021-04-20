@@ -26,8 +26,9 @@
 
 
     <div class="applet">
-      <div class="appletheader" id="appletheader">
+      <div class="appletheader">
         <p>Github</p>
+        <button class="appletsettings" ><i class="fas fa-cog"></i><span class="tooltip">Applet Settings</span></button>
       </div>
       <div class="calendar">
         <!-- Loading stuff -->
@@ -36,12 +37,13 @@
     </div>
 
     <div class="applet">
-      <div class="appletheader" id="appletheader">
-        <p>Github</p>
+      <div class="appletheader">
+        <p>Robinhood</p>
+        <button class="appletsettings"><i class="fas fa-cog"></i><span class="tooltip">Applet Settings</span></button>
       </div>
     </div>
   </body>
   <script>
-    GitHubCalendar(".calendar", "jlance999", { responsive: true });
+    GitHubCalendar(".calendar", "jlance999", { responsive: true, tooltips:true});
   </script>
 </html>
