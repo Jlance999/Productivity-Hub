@@ -32,6 +32,36 @@ body h1 {
   z-index: 10;
   background-color: black;
   color: rgb(255, 220, 168);
+  display: flex;
+  justify-content: center;
+}
+
+.appletheader button {
+  background-color: black;
+  color: rgb(255, 220, 168);
+  border: none;
+  justify-content: flex-end;
+}
+
+.appletheader button .tooltip {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgb(66, 66, 66);
+  color: blanchedalmond;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  font-family: consolas,monospace;
+  position: absolute;
+  z-index: 1;
+}
+
+.appletheader button:hover {
+  color: white;
+}
+
+.appletheader button:hover .tooltip {
+  visibility: visible;
 }
 
 .navbar {
